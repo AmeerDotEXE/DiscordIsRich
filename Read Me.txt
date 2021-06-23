@@ -13,6 +13,9 @@ with stuff like:
 Q: Does this work on ...?
 A: NO, this only works on windows.
 
+Q: is this a virus?
+A: no, if you think it is then don't download it XD
+
 Q: Why the program doesn't open?
 A: you need .NET Core 3.1 x86
 Link: https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-3.1.16-windows-x86-installer
