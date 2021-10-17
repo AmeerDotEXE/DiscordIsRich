@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "twYiuwYKLxFNuJwsGgpdgRar4Too5JWjA9h9kaMHyfz49GJ+OphFKZOcJSdoXagSY2wpFQ3AHZsTRfwi3l8+QA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ameer\\source\\repos\\DiscordIsRich\\DIR Updater\\DIR Updater.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ameer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\ameer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\ameer\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\ameer\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\3.1.15\\microsoft.netcore.app.host.win-x86.3.1.15.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <StartupObject>DiscordIsRich.Program</StartupObject>
+    <SignAssembly>false</SignAssembly>
+    <DelaySign>false</DelaySign>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Description>Discord RPC by Ameer!</Description>
+    <PackageLicenseExpression>Free To Use</PackageLicenseExpression>
+    <NeutralLanguage>en</NeutralLanguage>
+    <AssemblyOriginatorKeyFile>DiscordIsRich_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+    <ApplicationIcon>discord-2-512.ico</ApplicationIcon>
+    <Authors>Ameer!</Authors>
+    <Product>Discord Is Rich</Product>
+    <PackageIcon>discord-2-512.png</PackageIcon>
+    <PackageIconUrl />
+    <AssemblyVersion>1.0.0.3</AssemblyVersion>
+    <FileVersion>1.0.0.3</FileVersion>
+    <Copyright>Made By Ameer!</Copyright>
+    <RepositoryUrl>https://github.com/AmeerDotEXE/DiscordIsRich</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <Version>1.0.0.3</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DiscordRichPresence" Version="1.0.175" />
+    <PackageReference Include="Nancy" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\discord-2-512.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
