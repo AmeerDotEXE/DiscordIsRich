@@ -1,6 +1,13 @@
 # DiscordIsRich
 sorry i can't change program name :/
 
+---
+
+# DISCONTINUED
+you can use [PresenceX](https://ameerdotexe.github.io/PresenceX/) instead...
+
+---
+
 this program is a Discord RPC and it is free to use
 with stuff like:
 - Interface > you can put stuff on an interface instead of coding the RPC
